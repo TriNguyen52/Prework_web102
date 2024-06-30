@@ -18,19 +18,19 @@ The following **required** functionality is completed:
 The following **optional** features are implemented:
 
 * [x] Search bar to search for name of the game based on the letters appear in the name
-  [x] A link at the header "Sea Monster Crowdfunding" that leads direcy to "Our game" section
+* [x] Search bar to search for name of the game based on the letters appear in the name A link at the header "Sea Monster Crowdfunding" that leads direcy to "Our game" section
 
 ## Video Walkthrough
 
 Here's a walkthrough of implemented features:
 
-<img src='http://i.imgur.com/link/to/your/gif/file.gif' />
+<img src='https://imgur.com/Ftshajg' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 <!-- Replace this with whatever GIF tool you used! -->
 
 ## Notes
 
-Describe any challenges encountered while building the app.
+First, challenges 3 and 4 involved building the game cards and updating the calculation of the number of contributions and goals in the "Stats" area. I encountered several bugs, such as incorrectly naming variables and using the wrong syntax, especially from the perspective of someone used to Python. Additionally, building the search bar was difficult because it needed to accept lowercase input and search character by character. I managed to accomplish this with the support of Stack Overflow and ChatGPT. Lastly, I will continue looking for more inspiration to improve the appearance of the website. =)))
 
 ## License
 

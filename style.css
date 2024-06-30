@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap');
+
+body {
+    font-family: 'Libre Baskerville';
+    background-color: #19647E;
+    color: #FFFFFF;
+}
+
+#tentacles {
+    width: 50px;
+}
+a {
+    text-decoration: none;
+    color: inherit;
+    cursor: pointer;
+}
+.header {
+    display: flex;
+    background-color: #add8e6;
+    color: #000000;
+    padding: 1%;
+    align-items: center;
+    margin-left: -10px;
+    margin-right: -10px;
+    margin-top: -10px;
+}
+
+.stats-container {
+    display: flex;
+    align-items: center;  /* Added align-items property */
+}
+
+.stats-container:hover {
+    cursor: pointer;
+    box-shadow: 0 0 30px lightblue;
+}
+
+.stats-card {
+    background-color: #ffffff;
+    color: #000000;
+    border-radius: 7px;
+    padding: 1%;
+    margin: 1%;
+    width: 100%;
+    text-align: center;
+}
+
+#num-contributions, #total-raised, #num-games {
+    font-size: 50px;
+}
+
+#games-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.game-img {
+    max-width: 100%; /* Ensure image does not exceed container width */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 5px;
+    box-shadow: 0 0 10px #FFFFFF;
+    flex: 1 1 auto; /* Allow image to grow/shrink as needed */
+}
+
+.game-card {
+    background-color: #FFFFFF;
+    color: #000000;
+    padding: 1%;
+    margin: 1%;
+    width: 300px;
+    text-align: center;
+    border-radius: 7px;
+    overflow: hidden; /* Ensure content does not overflow */
+    display: flex; /* Use flexbox to center content vertically */
+    flex-direction: column; /* Stack child elements vertically */
+    justify-content: space-between; /* Distribute space evenly */
+}
+
+.game-card:hover {
+    cursor: pointer;
+    box-shadow: 0 0 30px lightblue;
+}
+
+#button-container {
+    text-align: center;
+}
+
+button {
+    font-family: 'Libre Baskerville';
+    border: none;
+    padding: 1%;
+    margin: 1%;
+    border-radius: 7px;
+}
+#info-search-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 0;
+}
+
+#description-container {
+    flex: 1;
+    margin-right: 20px;
+    color: #FFFFFF;
+}
+
+#search-container {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    right: 10px;
+
+}
+
+#search-bar {
+    font-family: 'Libre Baskerville';
+    padding: 0.5em;
+    margin-right: 0.5em;
+    border-radius: 10px; /* Add this line to curve the border */
+    border: 1px solid #ccc; /* Optional: Add a border to the search bar */
+}
+
+#search-btn {
+    padding: 0.5em;
+    border-radius: 10px; /* Add this line to curve the border */
+    border: 1px solid #ccc; /* Optional: Add a border to the search bar */
+}
+
